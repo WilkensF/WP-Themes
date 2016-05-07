@@ -1,3 +1,11 @@
+=== Responsive Portfolio ===
+Contributors: Fabian Wilkens, the WordPress team
+Requires at least: WordPress ???
+Testet at: WordPress 4.5.2
+Tested up to: WordPress 4.5.2
+Version: 1.2
+
+
 === Twenty Sixteen ===
 Contributors: the WordPress team
 Requires at least: WordPress 4.4
