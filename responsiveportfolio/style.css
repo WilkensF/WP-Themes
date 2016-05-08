@@ -3101,7 +3101,7 @@ p > video {
 	.dropdown-toggle,
 	.main-navigation ul .dropdown-toggle.toggled-on,
 	.menu-toggle,
-	.site-header .social-navigation,
+	/*.site-header .social-navigation,*/
 	.site-footer .main-navigation {
 		display: none;
 	}
@@ -3975,3 +3975,4 @@ p > video {
 		padding: 0;
 	}
 }
+ 

@@ -43,36 +43,38 @@
 					<?php endif; ?>
 				</div><!-- .site-branding -->
 
-				<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
+				<?php if ( has_nav_menu( 'social' ) ) : ?>
+					<!-- <nav id="social-navigation" class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'twentysixteen' ); ?>"> -->
+					<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>">
+						<?php
+							wp_nav_menu( array(
+								'theme_location' => 'social',
+								'menu_class'     => 'social-links-menu',
+								'depth'          => 1,
+								'link_before'    => '<span class="screen-reader-text">',
+								'link_after'     => '</span>',
+							) );
+						?>
+					</nav><!-- .social-navigation -->
+				<?php endif; ?>
+
+				<?php if ( has_nav_menu( 'primary' ) ) : ?>
 					<button id="menu-toggle" class="menu-toggle"><?php _e( 'Menu', 'twentysixteen' ); ?></button>
 
 					<div id="site-header-menu" class="site-header-menu">
-						<?php if ( has_nav_menu( 'primary' ) ) : ?>
-							<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
-								<?php
-									wp_nav_menu( array(
-										'theme_location' => 'primary',
-										'menu_class'     => 'primary-menu',
-									 ) );
-								?>
-							</nav><!-- .main-navigation -->
-						<?php endif; ?>
+						<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
+							<?php
+								wp_nav_menu( array(
+									'theme_location' => 'primary',
+									'menu_class'     => 'primary-menu',
+								 ) );
+							?>
+						</nav><!-- .main-navigation -->
 
-						<?php if ( has_nav_menu( 'social' ) ) : ?>
-							<nav id="social-navigation" class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'twentysixteen' ); ?>">
-								<?php
-									wp_nav_menu( array(
-										'theme_location' => 'social',
-										'menu_class'     => 'social-links-menu',
-										'depth'          => 1,
-										'link_before'    => '<span class="screen-reader-text">',
-										'link_after'     => '</span>',
-									) );
-								?>
-							</nav><!-- .social-navigation -->
-						<?php endif; ?>
 					</div><!-- .site-header-menu -->
+
 				<?php endif; ?>
+
 			</div><!-- .site-header-main -->
 
 			<?php if ( get_header_image() ) : ?>
