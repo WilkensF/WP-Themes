@@ -651,13 +651,17 @@ input[type="search"],
 input[type="tel"],
 input[type="number"],
 textarea {
-	background: #f7f7f7;
+	/*background: #f7f7f7;*/
+	background: black;
 	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 	border: 1px solid #d1d1d1;
 	border-radius: 2px;
-	color: #686868;
-	padding: 0.625em 0.4375em;
+	/*color: #686868;*/
+	color: white;
+	/*padding: 0.625em 0.4375em;*/
+	padding: 4px;
 	width: 100%;
+	font-size: 14px;
 }
 
 input[type="text"]:focus,
@@ -668,9 +672,11 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="number"]:focus,
 textarea:focus {
-	background-color: #fff;
+	/*background-color: #fff;*/
+	background-color: black;
 	border-color: #007acc;
-	color: #1a1a1a;
+	/*color: #1a1a1a;*/
+	color: white;
 	outline: 0;
 }
 
@@ -1408,7 +1414,7 @@ blockquote:after,
  */
 
 .widget {
-	border-top: 4px solid #1a1a1a;
+	/*border-top: 4px solid #1a1a1a;*/
 	margin-bottom: 3.5em;
 	padding-top: 1.75em;
 }
@@ -2143,9 +2149,43 @@ body.search-no-results .page-header {
 
 .content-bottom-widgets .widget-area {
 	margin-bottom: 3.5em;
+	float: left;
 }
 
+/* PAGES */
+/* Home */
+.page-id-7 .entry-title {
+	display:none;
+}
 
+/* Contact */
+form.wpcf7-form {
+	width: 500px;
+	/*max-width: 100%;*/
+	margin: auto;
+}
+form.wpcf7-form p span.wpcf7-form-control-wrap.your-name input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+	width: 400px;
+}
+
+form.wpcf7-form p span.wpcf7-form-control-wrap.your-email input.wpcf7-form-control.wpcf7-email.wpcf7-validates-as-required {
+	width: 400px;
+}
+
+form.wpcf7-form p span.wpcf7-form-control-wrap.your-subject input.wpcf7-form-control.wpcf7-text{
+	width: 500px;
+}
+
+form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-control.wpcf7-textarea {
+	width: 500px;
+	min-width: 500px;
+	max-width: 1000px:
+}
+
+p.site-description {
+	width: 250px;
+	float: left;
+}
 /**
  * 11.3 - Post Formats
  */
@@ -2855,8 +2895,8 @@ p > video {
 	.image-navigation,
 	.post-navigation,
 	.page-header,
-	.page-content,
-	.content-bottom-widgets {
+	/*.content-bottom-widgets, */
+	.page-content{
 		margin-right: 23.0769%;
 	}
 
@@ -2954,6 +2994,43 @@ p > video {
 	body:not(.search-results) .entry-summary li > ol,
 	body:not(.search-results) .entry-summary blockquote > ol {
 		margin-left: 1.473684211em;
+	}
+
+	/* ################################################################################################ */
+
+	html,
+	body,
+	div#page.site {
+		width: 680px;
+	}
+
+	/* Footer - Content Widget */
+	.content-bottom-widgets .widget-area {
+		width: 285px;
+		margin: auto;
+	}
+
+	.content-bottom-widgets .widget-area-4 {
+		clear: left;
+	}
+
+	/*Footer*/
+	.site-footer {
+	    width: 680px;
+	}
+
+	/*Menu*/
+	div#site-header-menu.site-header-menu{
+		width: 580px;
+	}
+
+	#menu-toggle {
+		margin-right: 2.5%;
+	}
+
+	#site-header-menu{
+		margin-right: 2.5%;
+		margin-left:  2.5%;
 	}
 }
 
@@ -3356,7 +3433,7 @@ p > video {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 0 4.5455% 3.5em;
+		padding: 0 4.5455% 20px;
 	}
 
 	.site-footer .social-navigation {
@@ -3402,6 +3479,32 @@ p > video {
 	.widecolumn {
 		padding-right: 15%;
 		padding-left: 15%;
+	}
+
+	/* ################################################################################################ */
+
+	html,
+	body,
+	div#page.site {
+		width: 880px;
+	}
+	/* Footer - Content Widget */
+	.content-bottom-widgets .widget-area {
+		width: 200px;
+	}
+
+	.content-bottom-widgets .widget-area-4 {
+		clear: none;
+	}
+
+	/*Footer*/
+	.site-footer {
+	    width: 880px;
+	}
+
+	/*Menu*/
+	div#site-header-menu.site-header-menu{
+		width: 780px;
 	}
 }
 
@@ -3543,7 +3646,8 @@ p > video {
 	.sidebar,
 	.content-bottom-widgets .widget-area,
 	.widecolumn {
-		margin-bottom: 7.0em;
+		/*margin-bottom: 7.0em;*/
+		margin-bottom: 15px;
 	}
 
 	body:not(.search-results) .entry-summary {
@@ -3629,15 +3733,16 @@ p > video {
 		width: 15%;
 	}
 
-
-
-
 	/* ################################################################################################ */
 
 	html,
 	body,
 	div#page.site {
 		width: 880px;
+	}
+	/* Footer - Content Widget */
+	.content-bottom-widgets .widget-area {
+		width: 200px;
 	}
 
 	/*Footer*/
@@ -3781,6 +3886,12 @@ p > video {
 	div#page.site {
 		width: 1100px;
 	}
+
+	/* Footer - Content Widget */
+	.content-bottom-widgets .widget-area {
+		width: 250px;
+	}
+
 	/*Footer*/
 	.site-footer {
 	    width: 1100px;
@@ -3819,16 +3930,17 @@ div.site-inner {
 
 /*Conntent*/
 .site-content {
-	padding-bottom:100px; /* Height of the footer element */
+	padding-bottom:30px; /* Height of the footer element */
 }
 
 /*Footer*/
 .site-footer {
-	height:50px;
-	position:absolute;
+	height:auto;
+	/*position:absolute;*/
 	bottom:0;
-	margin-top: 15px;
+	margin-top: 50px;
 	padding-bottom: 15px;
+	background-color: #262626;
 }
 
 /*Site - Content - Title*/
