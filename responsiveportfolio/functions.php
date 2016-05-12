@@ -249,6 +249,9 @@ function twentysixteen_scripts() {
 	// Add Genericons, used in the main stylesheet.
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.4.1' );
 
+	// Add TCCEB, used in the main stylesheet.
+	wp_enqueue_style( 'fonts', get_template_directory_uri() . '/ttf/fonts.css', array(), '1.0.0' );
+
 	// Theme stylesheet.
 	wp_enqueue_style( 'twentysixteen-style', get_stylesheet_uri() );
 
