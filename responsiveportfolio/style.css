@@ -2182,10 +2182,6 @@ form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-
 	max-width: 1000px:
 }
 
-p.site-description {
-	width: 250px;
-	float: left;
-}
 /**
  * 11.3 - Post Formats
  */
@@ -2830,6 +2826,7 @@ p > video {
 		font-size: 28px;
 		font-size: 1.75rem;
 		line-height: 1.25;
+		float: left;
 	}
 
 	.wp-custom-logo .site-title {
@@ -2838,6 +2835,8 @@ p > video {
 
 	.site-description {
 		display: block;
+		float: right;
+		margin: 12px 20px 0px;
 	}
 
 	.menu-toggle {
@@ -3934,11 +3933,16 @@ div.site-inner {
 }
 
 /*Footer*/
+aside { 
+	margin-bottom: 10px;
+}
+
 .site-footer {
 	height:auto;
 	/*position:absolute;*/
 	bottom:0;
-	margin-top: 50px;
+	margin-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 15px;
 	background-color: #262626;
 }
