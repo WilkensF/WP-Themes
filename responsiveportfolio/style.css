@@ -318,7 +318,8 @@ input,
 select,
 textarea {
 	color: #1a1a1a;
-	font-family: Merriweather, Georgia, serif;
+	/*font-family: Merriweather, Georgia, serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.75;
@@ -616,7 +617,8 @@ input[type="submit"][disabled]:focus {
 	border: 0;
 	border-radius: 2px;
 	color: #fff;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.046875em;
 	line-height: 1;
@@ -687,7 +689,8 @@ textarea:focus {
 .post-password-form label {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	letter-spacing: 0.076923077em;
@@ -811,7 +814,8 @@ a:active {
 }
 
 .main-navigation {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 }
 
 .site-footer .main-navigation {
@@ -1065,7 +1069,8 @@ a:active {
 	border-top: 4px solid #1a1a1a;
 	border-bottom: 4px solid #1a1a1a;
 	clear: both;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	margin: 0 7.6923% 3.5em;
 }
 
@@ -1091,7 +1096,8 @@ a:active {
 
 .post-navigation .post-title {
 	display: inline;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 23px;
 	font-size: 1.4375rem;
 	font-weight: 700;
@@ -1110,7 +1116,8 @@ a:active {
 
 .pagination {
 	border-top: 4px solid #1a1a1a;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 19px;
 	font-size: 1.1875rem;
 	margin: 0 7.6923% 2.947368421em;
@@ -1249,7 +1256,8 @@ a:active {
 	border-top: 1px solid #d1d1d1;
 	border-bottom: 1px solid #d1d1d1;
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
@@ -1305,7 +1313,8 @@ a:active {
 	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
 	color: #21759b;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	left: -9999em;
@@ -1318,7 +1327,8 @@ a:active {
 
 .logged-in .site .skip-link {
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
-	font-family: "Open Sans", sans-serif;
+	/*font-family: "Open Sans", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 }
 
 .site .skip-link:focus {
@@ -1425,7 +1435,8 @@ blockquote:after,
 }
 
 .widget .widget-title {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	letter-spacing: 0.046875em;
@@ -1476,7 +1487,8 @@ blockquote:after,
 .widget_recent_entries .post-date {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-family: Montserrat, "Helvetica Neue", sans-se/*r*/if;
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	line-height: 1.615384615;
@@ -1496,7 +1508,8 @@ blockquote:after,
 .widget_rss cite {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	font-style: normal;
@@ -1517,7 +1530,8 @@ blockquote:after,
 	border: 1px solid #d1d1d1;
 	border-radius: 2px;
 	display: inline-block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	line-height: 1;
 	margin: 0 0.1875em 0.4375em 0;
 	padding: 0.5625em 0.4375em 0.5em;
@@ -1601,7 +1615,8 @@ blockquote:after,
 }
 
 .site-title {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 23px;
 	font-size: 1.4375rem;
 	font-weight: 700;
@@ -1702,7 +1717,8 @@ blockquote:after,
 }
 
 .entry-title {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 28px;
 	font-size: 1.75rem;
 	font-weight: 700;
@@ -1987,7 +2003,8 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .entry-footer {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
@@ -2023,7 +2040,8 @@ body:not(.search-results) .entry-summary > :last-child,
 .sticky-post {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	letter-spacing: 0.076923077em;
@@ -2063,7 +2081,8 @@ body.search-no-results .page-header {
 }
 
 .page-title {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 23px;
 	font-size: 1.4375rem;
 	line-height: 1.2173913043;
@@ -2086,7 +2105,8 @@ body.search-no-results .page-header {
 
 .page-links {
 	clear: both;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	margin: 0 0 1.75em;
 }
 
@@ -2144,7 +2164,8 @@ body.search-no-results .page-header {
 }
 
 .content-bottom-widgets {
-	margin: 0 7.6923%;
+	/*margin: 0 7.6923%;*/
+	margin: 0 7.6923% 10px;
 }
 
 .content-bottom-widgets .widget-area {
@@ -2223,7 +2244,8 @@ form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-
 .comments-title,
 .comment-reply-title {
 	border-top: 4px solid #1a1a1a;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 23px;
 	font-size: 1.4375rem;
 	font-weight: 700;
@@ -2279,7 +2301,8 @@ form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-
 .comment-metadata,
 .pingback .edit-link {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
@@ -2329,7 +2352,8 @@ form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-
 	border-radius: 2px;
 	color: #007acc;
 	display: inline-block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	line-height: 1;
@@ -2351,7 +2375,8 @@ form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-
 .comment-form label {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	letter-spacing: 0.076923077em;
@@ -2377,7 +2402,8 @@ form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-
 
 .no-comments {
 	border-top: 1px solid #d1d1d1;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-weight: 700;
 	margin: 0;
 	padding-top: 1.75em;
@@ -2398,7 +2424,8 @@ form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-
 
 .required {
 	color: #007acc;
-	font-family: Merriweather, Georgia, serif;
+	/*font-family: Merriweather, Georgia, serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 }
 
 .comment-reply-title small {
@@ -2469,7 +2496,8 @@ form.wpcf7-form p span.wpcf7-form-control-wrap.your-message textarea.wpcf7-form-
 .site-footer .site-title:after {
 	content: "\002f";
 	display: inline-block;
-	font-family: Montserrat, sans-serif;
+	/*font-family: Montserrat, sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	opacity: 0.7;
 	padding: 0 0.307692308em 0 0.538461538em;
 }
@@ -2691,7 +2719,8 @@ p > video {
 .widecolumn label,
 .widecolumn .mu_register label {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	/*font-family: Montserrat, "Helvetica Neue", sans-serif;*/
+	font-family: Tw Cen MT Condensed Extra Bold, Arial, sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	font-weight: 400;
@@ -3411,7 +3440,7 @@ p > video {
 		margin-top: 3.2307692308em;
 	}
 
-	.content-bottom-widgets .widget-area:nth-child(1):nth-last-child(2),
+	/*.content-bottom-widgets .widget-area:nth-child(1):nth-last-child(2),
 	.content-bottom-widgets .widget-area:nth-child(2):nth-last-child(1) {
 		float: left;
 		margin-right: 7.1428571%;
@@ -3420,7 +3449,7 @@ p > video {
 
 	.content-bottom-widgets .widget-area:nth-child(2):nth-last-child(1):last-of-type {
 		margin-right: 0;
-	}
+	}*/
 
 	.site-footer {
 		-webkit-align-items: center;
@@ -3887,8 +3916,36 @@ p > video {
 	}
 
 	/* Footer - Content Widget */
-	.content-bottom-widgets .widget-area {
-		width: 250px;
+	aside {
+		width: 100%;
+	}
+	
+	.content-bottom-widgets .widget-areas-1 {
+		width: calc(100%/1);
+		padding: auto;
+		margin: auto;
+		/*width: 250px;*/
+	}
+
+	.content-bottom-widgets .widget-areas-2 {
+		width: calc(100%/2);
+		padding: 0 3%;
+		margin: auto;
+		/*width: 250px;*/
+	}
+
+	.content-bottom-widgets .widget-areas-3 {
+		width: calc(100%/3);
+		padding: 0 2%;
+		margin: auto;
+		/*width: 250px;*/
+	}
+
+	.content-bottom-widgets .widget-areas-4 {
+		width: calc(100%/4);
+		padding: 0 1%;
+		margin: auto;
+		/*width: 250px;*/
 	}
 
 	/*Footer*/
@@ -3936,10 +3993,6 @@ div.site-inner {
 }
 
 /*Footer*/
-aside { 
-	margin-bottom: 10px;
-}
-
 .site-footer {
 	height:auto;
 	/*position:absolute;*/
